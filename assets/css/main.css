@@ -1,1 +1,88 @@
 /* custom styles */
+
+header {
+  text-align: center;
+  color: white;
+  background-image: url("/Users/adarshnakumar/wdi/addykumar27.github.io/assets/imgs/stars-background-two.jpg");
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height:300px;
+  margin: 0 auto;
+}
+
+
+h1 {
+	font-family:Gill Sans Extrabold, sans-serif ;
+  font-size: 36px;
+  padding: 5px;
+ 	color: #0D2C40;
+ 	letter-spacing: 1px;
+ 	font-weight: 70px;
+ 	margin:0 auto;
+}
+
+ul {
+  padding: 10px;
+  background: none;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+a:hover {
+  border-color: white;
+}
+
+img {
+  margin: 10px 0px 0px 0px;
+  border: 7px none;
+  border-radius: 20px;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+nav {
+  padding: 10px;
+  background-color: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  display: block;
+  padding: 0px 10px 0px 10px;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #545454;
+  background-color: #4F2F04;
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  text-align: center;
+  font-family:Gill Sans Extrabold, sans-serif;
+  color: #CC33FF;
+  font-size: 16px;
+}
+
+#links {
+    min-width: 200px;
+    height: auto;
+    display:flex;
+    flex-wrap:nowrap;
+}
+
+#links.img {
+    float: left;
+    width: 30%;
+    min-width: 95px;
+    margin: 0;
+    margin-bottom: 15px;
+    line-height: 130%;
+    font-size: 11px;
+    text-align: center;
+}
